@@ -1,0 +1,38 @@
+.menu-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+.menu-container img{
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.dowload-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #0EAF05;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  font-weight: bolder;
+}
+
+.dowload-btn svg{
+  fill: #ffffff;
+  text-shadow: 1px 1px 1px #000;
+}
